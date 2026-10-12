@@ -6,6 +6,14 @@ Proof of Concept
 4.  Generate a simplified, PM-friendly answer using an LLM.
 
 
+Key Features V1 (MVP)
+1.  Interactive Q&A Chat: A conversational interface where users can ask questions about technical concepts in natural language.
+2.  Role-Based Access Control (RBAC): The system must respect existing company permissions. A user should only receive answers derived from documentation they are authorized to view.
+3.  ELI5 Explanations: The AI must be prompted to return simplified, non-technical explanations focusing on business value, data flow, and dependencies.
+4.  On-the-Fly Architecture Diagrams: The application will generate visual flowcharts and architecture diagrams (via Mermaid.js) to help users visualize complex systems.
+5.  Source Citations: Every answer provided by the AI must include links back to the original engineering documents used to generate the answer.
+
+
 Technical Stack
 
 Language: Python
