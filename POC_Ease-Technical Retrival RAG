@@ -1,0 +1,15 @@
+Proof of Concept
+
+1.  Simulate ingesting documents along with their Access Control Lists (ACLs).
+2.  Store documents in a Vector Database with permissions metadata.
+3.  Simulate a user querying the system, applying a metadata filter based on their mock identity.
+4.  Generate a simplified, PM-friendly answer using an LLM.
+
+
+Technical Stack
+
+Language: Python
+AI Framework: LangChain or LlamaIndex
+Vector Database: ChromaDB (runs locally, no cloud setup needed for PoC)
+LLM: Google Gemini API (or OpenAI/Claude)
+Interface: A simple Command Line Interface (CLI) or a lightweight web UI using Gradio/Streamlit.
